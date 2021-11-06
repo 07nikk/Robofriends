@@ -4,6 +4,7 @@ import CardList from './CardList.js';
 import SearchBox from './SearchBox.js';
 import './index.css' 
 import Scroll from './Scroll'
+
 class App extends Component{
 	constructor()
 	{
