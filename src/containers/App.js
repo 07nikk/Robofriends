@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 // import {robots} from './robots';
-import CardList from './CardList.js';
-import SearchBox from './SearchBox.js';
-import './index.css' 
-import Scroll from './Scroll'
+import CardList from '../components/CardList.js';
+import SearchBox from '../components/SearchBox.js';
+import '../index.css' 
+import Scroll from '../components/Scroll'
 
 class App extends Component{
 	constructor()
@@ -18,7 +18,7 @@ class App extends Component{
 
 componentDidMount(){
 	// fetch is tool comes with browser to make requests
-	fetch('https://jsonplaceholder.typicode.com/users')
+	fetch('https:jsonplaceholder.typicode.com/users')
 		.then(response=>response.json())
 		.then(users =>this.setState({robots:users}));
 }
@@ -70,4 +70,4 @@ componentDidMount(){
 	}
 }
 
-export default App; 
+export default App;

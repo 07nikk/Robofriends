@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import Card from './Card.js';
 import 'tachyons';
-import App from './App.js'
+import App from './containers/App.js'
 // import CardList from './CardList.js';
 // import {robots} from './robots.js';
 
